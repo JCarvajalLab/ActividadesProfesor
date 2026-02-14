@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <h1>Mi Sitio de practica HTML</h1>
+      <p>Actividad guida del modulo 2</p>
+    </header>
+    <nav>
+      <a href="#Sobre mi">Sobre</a>
+      <a href="#Habilidades">Habilidades</a>
+      <a href="#Tabla">Tabla</a>
+      <a href="#Formulario">Formulario</a>
+    </nav>
+    <main>
+      <!-- sobre mi -->
+      <section id="sobre">
+        <h2>Sobre mi</h2>
+        <p>Estoy aprendiendo HTML desde cero</p>
+        <p>
+          Mas informacion en
+          <a href="https://www.w3.org" target="_blank" rel="noopener noreferrer"
+            >W3C</a
+          >
+        </p>
+      </section>
+      <!-- habilidades -->
+      <section id="habilidades">
+        <h2>Habilidades</h2>
+        <!-- Lista no ordenada -->
+        <h3>Lista no ordenada</h3>
+        <ul>
+          <li>HTML</li>
+          <li>Uso del inspector F12</li>
+          <li>Buenas practicas</li>
+        </ul>
+        <!-- Lista ordenada -->
+        <h3>Listas ordenadas</h3>
+        <ol>
+          <li>Crear estructura</li>
+          <li>Agregar contenido</li>
+          <li>Buenas practicas</li>
+        </ol>
+      </section>
+    </main>
+    <section id="tabla">
+      <h2>Proyectos</h2>
+
+      <h3>Imagen de ejemplo</h3>
+      <img
+        src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='400' height='150'><rect width='100%25' height='100%25' fill='%23e5e7eb'/><text x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' font-family='Arial' font-size='18' fill='%23334155'>Proyecto HTML</text></svg>"
+        alt="Imagen de ejemplo Proyecto HTML"
+        width="400"
+        height="150"
+      />
+      <h3>Tabla de proyectos</h3>
+      <table>
+        <tr>
+          <th>Proyecto</th>
+          <th>Estado</th>
+        </tr>
+        <tr>
+          <td>Mini Sitio</td>
+          <td>En progreso</td>
+        </tr>
+        <tr>
+          <td>Formulario</td>
+          <td>Pendiente</td>
+        </tr>
+      </table>
+    </section>
+
+    <section id="formulario">
+      <h2>Formulario de Contacto</h2>
+
+      <form action="#" method="get">
+        <p>
+          <label
+            >Nombre:
+            <input type="text" name="nombre" placeholder="Tu nombre" />
+          </label>
+        </p>
+
+        <p>
+          <label
+            >Contraseña:
+            <input type="password" name="clave" />
+          </label>
+        </p>
+
+        <p>
+          <strong>Intereses:</strong><br />
+          <label><input type="checkbox" name="html" /> HTML</label><br />
+          <label><input type="checkbox" name="css" /> CSS</label>
+        </p>
+
+        <p>
+          <strong>Nivel:</strong><br />
+          <label
+            ><input type="radio" name="nivel" value="basico" /> Básico</label
+          ><br />
+          <label
+            ><input type="radio" name="nivel" value="intermedio" />
+            Intermedio</label
+          >
+        </p>
+
+        <p>
+          <label
+            >Módulo:
+            <select name="modulo">
+              <option value="m2">Módulo 2</option>
+              <option value="m3">Módulo 3</option>
+            </select>
+          </label>
+        </p>
+
+        <p>
+          <input type="submit" value="Enviar" />
+          <button type="button">Botón normal</button>
+        </p>
+      </form>
+    </section>
+    <footer></footer>
+  </body>
+</html>
