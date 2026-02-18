@@ -1,0 +1,66 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f6f9;
+    color: #333;
+    line-height: 1.6;
+}
+.container{
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.card{
+    background: white;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+}
+
+.site-nav{
+    background: #1e3a8a;
+    padding: 10px 0;
+}
+
+.nav-links{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.site-nav .nav-links a{
+    color: white;
+    text-decoration: none;
+}
+
+@media(min-width: 768px){
+    .nav-links{
+        flex-direction: row;
+        justify-content: center;
+    }
+    .form{
+        max-width: 600px;
+        margin: 0 auto;
+    }
+}
+
+.schedule thead{
+    background: #2563ab;
+    color: white;
+}
+
+.btn{
+    background: #2563ab;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+.btn:hover{
+    background: #1e40af;
+}
