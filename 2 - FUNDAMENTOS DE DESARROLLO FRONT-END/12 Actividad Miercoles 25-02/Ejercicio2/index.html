@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Resumen 1 - Tipo de datos</title>
+  </head>
+  <body>
+    <script>
+      var miString = "Hola";
+      var miNumero = -32.45;
+      var miBooleano = true;
+      var miNull = null;
+      var miIndefinido = undefined;
+      var miObjeto = {
+        patas: 4,
+        nombre: "Perro",
+        ladrar: function () {
+          console.log("Guau!!");
+        },
+      };
+
+      console.log(miString);
+      console.log(miNumero);
+      console.log(miBooleano);
+      console.log(miNull);
+      console.log(miIndefinido);
+      console.log(miObjeto);
+
+      console.log(typeof miString);
+      console.log(typeof miNumero);
+      console.log(typeof miBooleano);
+      console.log(typeof miNull);
+      console.log(typeof miIndefinido);
+      console.log(typeof miObjeto);
+
+      // ****************************************************************
+      // var ciudad;
+      // ciudad = "Valparaiso"
+
+      // alert("La ciudad es: " + ciudad)
+      // ****************************************************************
+      // var prendido = true;
+      // if(prendido){
+      //     alert("Prendido");
+      // }else{
+      //     alert("Apagado")
+      // }
+      // ****************************************************************
+      // function miOperacion(numero1, numero2){
+      //   return numero1-numero2
+      // }
+      // console.log(miOperacion(1,2))
+      // ****************************************************************
+      function sumar(valor1,valor2,valor3){
+        return valor1+valor2+valor3
+      }
+      console.log(sumar(10,20,30));
+      
+    </script>
+  </body>
+</html>
