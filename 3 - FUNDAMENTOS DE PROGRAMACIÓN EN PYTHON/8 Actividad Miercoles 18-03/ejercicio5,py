@@ -1,0 +1,6 @@
+grupo1 = [5, 13, 16]
+grupo2 = [5, 14]
+
+for i in grupo1:
+    for j in grupo2:
+        print(i, j)
